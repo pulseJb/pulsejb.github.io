@@ -231,7 +231,7 @@ body {
 # hero
 -----------------------------------------------------------*/
 .hero-content {
-    padding: 100px 0;
+    padding: 50px 0;
     background: url("images/cover.jpg") no-repeat;
     background-size: cover;
 }
@@ -306,7 +306,7 @@ body {
 ## hero-content entry-footer
 ------------------------------------------------------------*/
 .hero-content .entry-footer {
-    margin-top: 125px;
+    margin-top: 50px;
     text-align: center;
     margin-left: 12%;
 }
@@ -833,7 +833,7 @@ body {
 .site-footer {
     position: relative;
     padding: 40px 0 30px;
-   background: -webkit-linear-gradient(#00d0ff, #25ffbf);
+   background: -webkit-linear-gradient(#b20a2c, #ef8e38);
     background-size: cover;
 }
 
