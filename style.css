@@ -314,11 +314,29 @@ body {
 .hero-content .entry-footer .btn {
     background: -webkit-linear-gradient(#00d0ff, #25ffbf);
     padding: 16px 40px;
+    margin-top: 20px;
     border-radius: 0;
     margin-right: 20px;
     color: hsl(0, 0%, 17%);
     font-weight: 600;
 }
+
+.hero-content .entry-footer .in {
+    background: white;
+    margin-top: 20px;
+    text-align: center;
+    padding: 16px 16px;
+    border-radius: 0;
+    margin-right: 20px;
+    color: hsl(0, 0%, 17%);
+    font-weight: 600;
+}
+
+.hero-content .entry-footer .in::placeholder {
+  color: hsl(0, 0%, 40%);
+}
+
+
 
 .hero-content .entry-footer a:hover, .hero-content .entry-footer .current {
     background: white;
