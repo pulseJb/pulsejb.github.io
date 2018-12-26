@@ -231,7 +231,7 @@ body {
 # hero
 -----------------------------------------------------------*/
 .hero-content {
-    padding: 220px 0;
+    padding: 100px 0;
     background: url("images/cover.jpg") no-repeat;
     background-size: cover;
 }
@@ -254,11 +254,11 @@ body {
 .hero-content .entry-header .entry-meta-date {
     position: absolute;
     width: 100%;
-    top: 20px;
+    top: -10px;
     font-family: 'Poppins', sans-serif;
     font-size: 24px;
     font-weight: 500;
-    color: hsl(0, 0%, 90%);
+    color: #E5C2E1;
     text-align: center;
 }
 
@@ -268,7 +268,7 @@ body {
     }
 
     .hero-content .entry-header .entry-meta-date {
-        top: 60px;
+        top: -10px;
     }
 }
 
@@ -292,7 +292,7 @@ body {
     font-size: 72px;
     font-weight: 600;
     line-height: 1;
-    color: hsl(0, 0%, 100%);
+    color: white;
 }
 
 .countdown-holder label {
@@ -308,10 +308,11 @@ body {
 .hero-content .entry-footer {
     margin-top: 125px;
     text-align: center;
+    margin-left: 12%;
 }
 
 .hero-content .entry-footer .btn {
-    background: hsl(0, 0%, 100%);
+    background: -webkit-linear-gradient(#00d0ff, #25ffbf);
     padding: 16px 40px;
     border-radius: 0;
     margin-right: 20px;
@@ -320,7 +321,7 @@ body {
 }
 
 .hero-content .entry-footer a:hover, .hero-content .entry-footer .current {
-    background: -webkit-linear-gradient(#00d0ff, #25ffbf);
+    background: white;
     color: hsl(0, 0%, 0%);
 }
 
@@ -814,7 +815,7 @@ body {
 .site-footer {
     position: relative;
     padding: 40px 0 30px;
-    background: url(images/footer-cover.jpg) no-repeat;
+   background: -webkit-linear-gradient(#00d0ff, #25ffbf);
     background-size: cover;
 }
 
